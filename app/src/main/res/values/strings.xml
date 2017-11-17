@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Education Exam</string>
+    <string name="home_work">家庭作业</string>
+    <string name="enter_your_name">输入姓名</string>
+    <string name="enter_student_ID">输入学号</string>
+    <string name="the_first_question">第一题，第1题 IT的主要支柱是计算机技术、控制技术和？（20分）</string>
+    <string name="the_second_question">第二题，某学校新买了一批计算机，配置为Intel core i3，4G，500G，21吋，那么该计算机的硬盘大小是？(20分)</string>
+    <string name="the_third_question">第三题，Android的四大组件是哪些？（多选）?（20分）</string>
+    <string name="the_fourth_question">第四题， 在Windows操作系统中，文件名通常可以由文件的(  )两部分组成 ？（多选）？（20分）</string>
+    <string name="the_fifth_question">第五题，填空，填空飘来五个字的下一句是？（20分）</string>
+    <string name="option_1_a">A.编码技术</string>
+    <string name="option_1_b">B.通讯技术</string>
+    <string name="option_1_c">C.显示技术</string>
+    <string name="option_1_d">D.电子技术</string>
+    <string name="option_2_a">A.500G</string>
+    <string name="option_2_b">B.21吋</string>
+    <string name="option_2_c">C.3</string>
+    <string name="option_2_d">D.2G</string>
+    <string name="option_3_a">Activity</string>
+    <string name="option_3_b">Service</string>
+    <string name="option_3_c">Content Provider</string>
+    <string name="option_3_d">BroadCast Receiver</string>
+    <string name="option_4_a">A.延伸名</string>
+    <string name="option_4_b">B.扩展名</string>
+    <string name="option_4_c">C.主名</string>
+    <string name="option_4_d">D.次名</string>
+    <string name="question_5_answer">输入答案</string>
+    <string name="submit_the_answer">提交答案</string>
+</resources>
