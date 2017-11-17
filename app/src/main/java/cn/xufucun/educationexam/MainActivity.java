@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText editText5;
 
+    private static Toast mToast=null;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,7 +78,8 @@ public class MainActivity extends AppCompatActivity {
                 + "学号：" + etStNm.getText().toString() + "\n"
                 + "得分：" + calculateScore();
 
-        Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
+        show(msg);
+
     }
 
     private int calculateScore() {
@@ -119,6 +122,16 @@ public class MainActivity extends AppCompatActivity {
 
         return score;
 
+    }
+
+
+    private void show(String msg){
+        if(mToast==null){
+            mToast=Toast.makeText(this,msg,Toast.LENGTH_SHORT);
+        }else{
+            mToast.setText(msg);
+        }
+        mToast.show();
     }
 
 
